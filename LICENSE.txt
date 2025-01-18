@@ -1,0 +1,5 @@
+Copyright 2025 Deyi Rao
+
+All rights reserved. This software and its source code are the proprietary property of Deyi Rao. Unauthorized copying, distribution, modification, or use of this software, via any medium, is strictly prohibited. This software is licensed, not sold. You may not reverse engineer, decompile, or disassemble this software without prior written consent.
+
+Any use of this software must comply with the terms explicitly stated in a written agreement with the copyright holder. Violators may be subject to civil and/or criminal liability.
