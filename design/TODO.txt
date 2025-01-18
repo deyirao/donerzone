@@ -1,0 +1,55 @@
+10 Webseiten, dessen Design mir gefallen:
+1. Kebabzone
+2. Mangaal
+3. Döner Game
+
+===========================================================
+==================== WEBDESIGN PROZESS ====================
+===========================================================
+
+===========================================================
+[1] STRATEGIE
+
+Welcher Typ?
+=> Marketing/Business
+
+Was sind die Ziele?
+=> Kunden gewinnen
+=> Kunden über die Speisekarte informieren
+=> Vertrauen aufbauen
+=> Zeigen, wieso Kunden bei uns Essen sollten
+
+===========================================================
+[2] STRUKTUR
+
+Wie sieht der Aufbau der Webseite aus? Welche Sektionen?
+(I) Skizze erstellen
+(II) Wireframe erstellen
+
+===========================================================
+[3] DESIGNENTSCHEIDUNGEN
+
+Welche Farben?
+- Weiß
+- Schwarz
+- Gelb
+
+Welche Schriftarten?
+- Nunito ExtraBold
+- Poppins Bold
+- Inter
+
+Welche Bilder?
+
+Welches Logo?
+- Dönerzone Logo
+
+===========================================================
+[4] DESIGN
+
+=> Design über Figma umsetzen
+
+===========================================================
+[5] ENTWICKLUNG
+
+=> Webflow oder HTML/CSS
