@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    padding: 15px;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo size as needed */
+}
+
+.logo {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
