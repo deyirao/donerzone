@@ -1,0 +1,11 @@
+.hero {
+    background-image: url("../img/hero.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero-container p {
+    color: white;
+}
