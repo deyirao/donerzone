@@ -42,6 +42,16 @@
     font-size: 13px;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
+    border: none;
+}
+
+.hero-button:focus {
+    outline: none; /* Prevent the default focus */
+}
+
+.hero-button:focus-visible {
+    outline: 2px solid #FEC114; /* Apply focus styles only for keyboard users */
+    outline-offset: 2px;
 }
 
 /* "Mehr Erfahren" Button Style */
