@@ -3,9 +3,67 @@
     width: 100%;
     height: 600px;
     background-size: cover;
-    position: absolute;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.hero-container {
+    max-width: 60%;
+    padding: 100px;
+    padding-top: 20px;
+}
+
+.hero-container h1 {
+    color: white;
+    margin-bottom: 20px;
 }
 
 .hero-container p {
     color: white;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex; /* Ensure buttons are side by side */
+    gap: 20px; /* Space between buttons */
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+/* "Mehr Erfahren" Button Style */
+.hero-button.more {
+    background: white;
+    color: black;
+}
+
+.hero-button.more:hover {
+    background: black;
+    color: white;
+    outline: 1px solid white;
+}
+
+/* "Zur Speisekarte" Button Style */
+.hero-button.menu {
+    background: black;
+    color: #FEC114;
+    border: 1px solid #FEC114;
+}
+
+.hero-button.menu:hover {
+    background: #FEC114;
+    color: black;
 }
