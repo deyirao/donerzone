@@ -1,20 +1,31 @@
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #282828;
     padding: 15px;
 }
 
+.nav-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 30px;
+}
+
 .nav-left, .nav-right {
     display: flex;
-    gap: 20px; /* Space between nav links */
+    margin: 0px 60px;
+    gap: 60px;
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+    font-size: 13px;
+    transition: 0.3s color;
+}
+
+.navbar a:hover {
+    color: #FEC114;
 }
 
 .logo img {
@@ -22,7 +33,8 @@
 }
 
 .logo {
-    flex-grow: 1;
     display: flex;
     justify-content: center;
+    margin-right: 0px;
+    margin-left: 0px;
 }
