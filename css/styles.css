@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main-wrapper {
     max-width: 1920px; /* Set the maximum width for the entire site */
     margin: 0 auto; /* Horizontally center the content */
@@ -8,10 +12,6 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
     padding: 0%;
-}
-
-.container {
-    max-width: 1440px;
 }
 
 h1 {
