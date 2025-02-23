@@ -1,5 +1,56 @@
 .reviews {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviews-text {
+    justify-content: center;
     text-align: center;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.reviews-item {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+.reviews-item .info {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-item .info img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.review-text {
+    color: grey;
+}
+
+.reviewer-name {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+}
+
+.reviewer-job {
+    text-transform: capitalize;
+    color: darkgray;
+}
+
+.reviews-item .rating {
+    margin-top: 15px;
+    font-size: 14px;
+    color: hsl(36, 88%, 66%);
 }
