@@ -1,5 +1,0 @@
-
-Regarding the white space, my solution was to subtract the number of items in the animation-delay line, instead of just 1, so mine looks like this:  
-animation-delay: calc((10s / var(--quantity)) * (var(--position) - var(--quantity))); 
-
-I don't know if it works on all cases but even if it doesn't, it might help

@@ -2,55 +2,110 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 100px 0;
     box-sizing: border-box;
+    background-color: white;
 }
 
-.reviews-text {
-    justify-content: center;
-    text-align: center;
+.reviews-content {
+    max-width: 1370px;
     margin: auto;
     padding: 0 15px;
 }
 
+.reviews-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-text h2 {
+    margin: 0;
+}
+
 .reviews-item {
+    margin: 0 auto;
     padding: 30px;
     border-radius: 30px;
-    background-color: gainsboro;
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0.7;
 }
 
 .reviews-item .info {
     display: flex;
     align-items: center;
+    box-shadow: 0 13px 18px rgba(68, 77, 136, 0.2);
+    padding: 90px 40px;
+    padding-top: 125px;
+    flex-direction: column;
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid black;
 }
 
-.reviews-item .info img {
-    max-width: 80px;
+.reviews-item img {
+    margin-bottom: -70px;
+    max-width: 130px;
     border-radius: 50%;
-    margin-right: 20px;
-    vertical-align: middle;
+    box-shadow: 0 8px 5px rgba(68, 77, 136, 0.5);
+    position: sticky;
+    z-index: 999;
+}
+
+.reviews-item .info i {
+    font-size: 2rem;
 }
 
 .review-text {
-    color: grey;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    max-width: 200px;
 }
 
 .reviewer-name {
-    font-size: 24px;
+    font-size: 18px;
     text-transform: capitalize;
     font-weight: 700;
     line-height: 1.2;
     color: black;
+    margin: 0;
 }
 
-.reviewer-job {
-    text-transform: capitalize;
-    color: darkgray;
+.swiper {
+    width: 120vw; /* Full viewport width */
+    max-width: 100%; /* Ensure it doesn't shrink */
+    padding: 20px 0 60px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
 }
 
-.reviews-item .rating {
-    margin-top: 15px;
-    font-size: 14px;
-    color: hsl(36, 88%, 66%);
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next::after {
+    color: black;
+    margin-left: 20px;
+}
+
+.swiper-button-prev::after {
+    color: black;
+    margin-right: 20px;
+}
+
+.swiper-slide-next .reviews-item {
+    transform: scale(1.1);
+    opacity: 1;
 }

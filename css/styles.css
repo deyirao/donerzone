@@ -1,5 +1,14 @@
 html {
     scroll-behavior: smooth;
+    background: linear-gradient(90deg, #202020, #3a3a3a, #272727);
+    background-size: 300% 300%;
+    animation: smoothGradient 6s infinite alternate;
+}
+
+@keyframes smoothGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .main-wrapper {

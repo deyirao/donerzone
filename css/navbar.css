@@ -1,8 +1,13 @@
 .navbar {
     background-color: #1A1A1A;
     padding: 10px;
+}
+
+.navbar-content {
     display: flex;
     justify-content: space-between;
+    max-width: 1930px;
+    margin: 0 auto;
 }
 
 .nav-container {
@@ -52,7 +57,7 @@
     justify-content: center;
     margin-right: 0px;
     margin-left: 0px;
-    padding: 0 25px;
+    padding: 0 35px;
 }
 
 .order-now {

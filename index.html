@@ -20,29 +20,37 @@
 
     <!-- Other styles -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Include remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="logo">
-            <img src="img/logo.svg" alt="Logo">
-        </div>
-        <div class="nav-container">
-            <div class="nav-links">
-                <ul class="nav-menu">
-                    <li><a href="#about">ÜBER UNS</a></li>
-                    <li><a href="#gallery">GALERIE</a></li>
-                    <li><a href="#reviews">REZENSIONEN</a></li>
-                    <li><a href="#location">STANDORT</a></li>
-                </ul>
+        <div class="navbar-content">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo">
             </div>
-            <div class="order-now">
-                <a href="https://www.lieferando.de/speisekarte/doner-zone" target="_blank"
-                rel="noopener noreferrer" class="order-now button">JETZT BESTELLEN</a>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <img src="img/hamburger-menu.svg" alt="Menu" class="menu-icon">
-                <img src="img/cancel.svg" alt="Close" class="close-icon hidden">
+            <div class="nav-container">
+                <div class="nav-links">
+                    <ul class="nav-menu">
+                        <li><a href="#about">ÜBER UNS</a></li>
+                        <li><a href="#gallery">GALERIE</a></li>
+                        <li><a href="#reviews">REZENSIONEN</a></li>
+                        <li><a href="#location">STANDORT</a></li>
+                    </ul>
+                </div>
+                <div class="order-now">
+                    <a href="https://www.lieferando.de/speisekarte/doner-zone" target="_blank"
+                    rel="noopener noreferrer" class="order-now button">JETZT BESTELLEN</a>
+                </div>
+                <div class="hamburger" id="hamburger">
+                    <img src="img/hamburger-menu.svg" alt="Menu" class="menu-icon">
+                    <img src="img/cancel.svg" alt="Close" class="close-icon hidden">
+                </div>
             </div>
         </div>
     </nav>
@@ -117,70 +125,72 @@
                         warum so viele immer wieder zu uns kommen.
                         Deine Meinung zählt!</p>
                 </div>
-                <div class="reviews-slider js-reviews-slider">
-                    <div>
-                        <div class="reviews-item">
-                            <div class="info">
+                <div class="swiper reviews-slider">
+                    <div class="swiper-wrapper review-items">
+                        <div class="swiper-slide">
+                            <div class="reviews-item">
                                 <img src="img/person1.jpeg" alt="first person">
-                                <div class="text-box">
-                                    <p class="reviewer-name">Anton S.</p>
-                                    <span class="reviewer-job">Student</span>
+                                <div class="info">
+                                    <p class="reviewer-name">Anton</p>
+                                    <p class="review-text">Super leckerer Döner mit frischen Zutaten und
+                                        einer perfekt abgestimmten Soße: Gerne wieder!</p>
+                                    <span><i class="ri-double-quotes-r"></i></span>
                                 </div>
-                            </div>
-                            <p class="review-text">Habe mir hier einen Döner geholt und war echt zufrieden.
-                                Das Fleisch war gut gewürzt, das Brot knusprig und die Soßen haben super dazugepasst.
-                                Die Portion war groß und der Preis in Ordnung. Ich werde wiederkommen!</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
                             </div>
                         </div>
 
-                        <div class="reviews-item">
-                            <div class="info">
+                        <div class="swiper-slide">
+                            <div class="reviews-item">
                                 <img src="img/person2.jpeg" alt="second person">
-                                <div class="text-box">
-                                    <p class="reviewer-name">Friedrich M.</p>
-                                    <span class="reviewer-job">Rentner</span>
+                                <div class="info">
+                                    <p class="reviewer-name">Friedrich</p>
+                                    <p class="review-text">Große Portion, fairer Preis und das Fleisch
+                                        war genau auf den Punkt gegrillt: Ich komme gerne wieder!</p>
+                                    <span><i class="ri-double-quotes-r"></i></span>
                                 </div>
-                            </div>
-                            <p class="review-text">Habe mir einen Döner bei Döner Zone geholt und war zufrieden.
-                                Das Fleisch war schön würzig, nicht zu fettig, und das Brot hatte eine gute Konsistenz.
-                                Die Soße war geschmackvoll, aber nicht zu aufdringlich. Gerne wieder!</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
                             </div>
                         </div>
 
-                        <div class="reviews-item">
-                            <div class="info">
+                        <div class="swiper-slide">
+                            <div class="reviews-item">
                                 <img src="img/person3.jpeg" alt="third person">
-                                <div class="text-box">
-                                    <p class="reviewer-name">Chantal Y.</p>
-                                    <span class="reviewer-job">Krankenpflegerin</span>
+                                <div class="info">
+                                    <p class="reviewer-name">Chantal</p>
+                                    <p class="review-text">Freundliches Personal, schneller Service und
+                                        ein Döner, der richtig satt macht: Top Erlebnis!</p>
+                                    <span><i class="ri-double-quotes-r"></i></span>
                                 </div>
                             </div>
-                            <p class="review-text">War heute das erste Mal bei Döner Zone und bin begeistert!
-                                Das Fleisch war saftig und gut gewürzt, das Brot frisch und knusprig.
-                                Auch die Portion war sehr großzügig.
-                                Das Personal war freundlich und die Bestellung ging schnell.
-                                Komme auf jeden Fall wieder!</p>
-                            <div class="rating">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="reviews-item">
+                                <img src="img/person4.jpeg" alt="fourth person">
+                                <div class="info">
+                                    <p class="reviewer-name">Anna</p>
+                                    <p class="review-text">Knuspriges Brot, saftiges Fleisch und eine würzige
+                                        Soße: Genau so muss ein Döner sein!</p>
+                                    <span><i class="ri-double-quotes-r"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="reviews-item">
+                                <img src="img/person5.jpeg" alt="fifth person">
+                                <div class="info">
+                                    <p class="reviewer-name">Jonas</p>
+                                    <p class="review-text">Angenehm überrascht: frische Zutaten, lecker gewürzt
+                                        und die Portion war mehr als ausreichend!</p>
+                                    <span><i class="ri-double-quotes-r"></i></span>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
@@ -199,6 +209,8 @@
     </div>
 
     <script src="js/fullImage.js"></script>
+    <script src="js/reviews.js"></script> <!-- Your custom script to initialize Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
