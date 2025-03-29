@@ -39,7 +39,7 @@
     transition: 0.3s color;
 }
 
-.navbar a:hover {
+.nav-links a:hover {
     color: #FEC114;
 }
 
@@ -60,18 +60,16 @@
     font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
-    transition: background-color 1s, color 1s, border 1s;
+    transition: color 0.3s;
+}
+
+.order-now a:hover {
+    color:#535353
 }
 
 .order-now.button {
     background: white;
     color: black;
-    border: 1px solid black;
-}
-
-.order-now.button:hover {
-    background: black;
-    color: white;
 }
 
 /* Tablet */

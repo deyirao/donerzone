@@ -53,10 +53,11 @@
             <div class="hero-container">
                 <h1>FRISCH, LECKER, EINZIGARTIG: DEIN DÖNER VON DER ZONE!</h1>
                 <p class="hero-text">Entdecke den unvergesslichen Geschmack unseres authentischen Döner
-                    Kebabs – mit frischen Zutaten, feinsten Gewürzen und einer Prise
+                    Kebabs mit frischen Zutaten, feinsten Gewürzen und einer Prise
                     Leidenschaft. Komm vorbei und schmeck den Unterschied!</p>
                 <div class="hero-buttons">
-                    <a href="https://www.lieferando.de/speisekarte/doner-zone" class="hero-button menu">JETZT BESTELLEN</a>
+                    <a href="https://www.lieferando.de/speisekarte/doner-zone" class="hero-button menu"
+                    target="_blank" rel="noopener noreferrer">JETZT BESTELLEN</a>
                 </div>
             </div>
         </section>
@@ -88,39 +89,21 @@
                     Speisen inspirieren. Hier wird der Genuss sichtbar!</p>
                 </div>
             </div>
-            <div class="slider" reverse="true" style="
-                    --width: 200px;
-                    --height: 200px;
-                    --quantity: 9;
-                ">
-                <div class="list">
-                    <div class="item" style="--position: 1"><img src="img/doner.jpg" alt=""></div>
-                    <div class="item" style="--position: 2"><img src="img/interior.jpg" alt=""></div>
-                    <div class="item" style="--position: 3"><img src="img/doner2.jpg" alt=""></div>
-                    <div class="item" style="--position: 4"><img src="img/donertheke.jpg" alt=""></div>
-                    <div class="item" style="--position: 5"><img src="img/doner3.jpg" alt=""></div>
-                    <div class="item" style="--position: 6"><img src="img/donerzone-wall.jpg" alt=""></div>
-                    <div class="item" style="--position: 7"><img src="img/doner.jpg" alt=""></div>
-                    <div class="item" style="--position: 8"><img src="img/interior.jpg" alt=""></div>
-                    <div class="item" style="--position: 9"><img src="img/doner2.jpg" alt=""></div>
-                </div>
+            <div class="full-img" id="fullImageContent">
+                <img src="img/interior.jpg" id="fullImage">
+                <span onclick="closeFullImg()">X</span>
             </div>
-            <div class="slider" reverse="false" style="
-                    --width: 200px;
-                    --height: 200px;
-                    --quantity: 9;
-                ">
-                <div class="list">
-                    <div class="item" style="--position: 1"><img src="img/doner.jpg" alt=""></div>
-                    <div class="item" style="--position: 2"><img src="img/interior.jpg" alt=""></div>
-                    <div class="item" style="--position: 3"><img src="img/doner2.jpg" alt=""></div>
-                    <div class="item" style="--position: 4"><img src="img/donertheke.jpg" alt=""></div>
-                    <div class="item" style="--position: 5"><img src="img/doner3.jpg" alt=""></div>
-                    <div class="item" style="--position: 6"><img src="img/donerzone-wall.jpg" alt=""></div>
-                    <div class="item" style="--position: 7"><img src="img/doner.jpg" alt=""></div>
-                    <div class="item" style="--position: 8"><img src="img/interior.jpg" alt=""></div>
-                    <div class="item" style="--position: 9"><img src="img/doner2.jpg" alt=""></div>
-                </div>
+            <div class="img-gallery">
+                <img src="img/interior.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/doner.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/donertheke.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/doner2.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/doner3.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/donerzone-wall.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/doner.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/interior.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/donertheke.jpg" onclick="openFullImg(this.src)" alt="">
+                <img src="img/doner2.jpg" onclick="openFullImg(this.src)" alt="">
             </div>
         </section>
         
@@ -214,6 +197,8 @@
             </div>
         </section>
     </div>
+
+    <script src="js/fullImage.js"></script>
 </body>
 
 </html>
