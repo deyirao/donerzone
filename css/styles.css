@@ -36,6 +36,21 @@ p {
     max-width: 600px;
 }
 
+/* Laptop */
+@media (max-width: 1440px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    p, td {
+        font-size: 15px;
+    }
+}
+
 /* Tablet */
 @media (max-width: 991px) {
     

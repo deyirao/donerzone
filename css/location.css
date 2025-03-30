@@ -89,6 +89,18 @@
     border-radius: 30px;
 }
 
+/* Laptop */
+@media (max-width: 1440px) {
+    .opening-hours-header h3 {
+        font-size: 20px;
+    }
+
+    .contact-map iframe {
+        width: 700px;
+        height: 430px;
+    }
+}
+
 /* Tablet */
 @media (max-width: 991px) {
     
