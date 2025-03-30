@@ -95,14 +95,9 @@
     align-items: center;
 }
 
-.swiper-button-next::after {
-    color: black;
-    margin-left: 20px;
-}
-
+.swiper-button-next::after,
 .swiper-button-prev::after {
     color: black;
-    margin-right: 20px;
 }
 
 .swiper-slide-next .reviews-item {
