@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         autoplay: {
             delay: 7000,
-            disableOnInteraction: true,
+            disableOnInteraction: false,
         },
         breakpoints: {
             1024: {
