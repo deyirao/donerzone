@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var swiper = new Swiper(".reviews-slider", {
         loop: true,
-        spaceBetween: -100,
+        spaceBetween: 0,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
