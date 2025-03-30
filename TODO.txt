@@ -2,10 +2,8 @@
 
 2. DONE - Make doner zone logo in tab as favicon
 
-3. Make "cancel" for full image use a svg icon instead of just an X from the font
+3. DONE - In footer, make the underline for 'Deyi Rao' away and implement hover with yellow color
 
 4. Make website reponsive for all screenss
 
-5. In footer, make the underline for "Deyi Rao" away and implement hover with yellow color
-
-6. Add animations to the website
+5. Add animations to the website

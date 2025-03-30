@@ -15,4 +15,10 @@
 
 .footer-text a {
     color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text a:hover {
+    color: #FEC114;
 }
