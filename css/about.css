@@ -8,7 +8,7 @@
 
 .about-content {
     display: flex;
-    gap: 80px;
+    gap: 50px;
     max-width: 1800px;
     width: 100%;
     align-items: center;

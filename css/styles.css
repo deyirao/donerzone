@@ -1,20 +1,12 @@
 html {
     scroll-behavior: smooth;
-    background: linear-gradient(90deg, #202020, #3a3a3a, #272727);
-    background-size: 300% 300%;
-    animation: smoothGradient 6s infinite alternate;
-}
-
-@keyframes smoothGradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 
 .main-wrapper {
-    max-width: 1920px; /* Set the maximum width for the entire site */
-    margin: 0 auto; /* Horizontally center the content */
-    overflow-x: hidden; /* Prevent horizontal scroll for smaller screens */
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    border: 1px solid rgb(124, 124, 124);
 }
 
 body {
