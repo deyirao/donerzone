@@ -101,6 +101,21 @@
     }
 }
 
+@media (max-width: 1140px) {
+    .opening-hours-header h3 {
+        font-size: 19px;
+    }
+
+    .contact-map iframe {
+        width: 500px;
+        height: 430px;
+    }
+
+    .location-details {
+        gap: 20px;
+    }
+}
+
 /* Tablet */
 @media (max-width: 991px) {
     

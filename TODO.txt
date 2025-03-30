@@ -4,7 +4,7 @@
 
 3. DONE - In footer, make the underline for 'Deyi Rao' away and implement hover with yellow color
 
-4. Make the main logo on the navigation bar clickable
+4. DONE - Make the main logo on the navigation bar clickable
 
 5. Make website reponsive for all screenss
 

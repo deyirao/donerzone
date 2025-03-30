@@ -40,6 +40,7 @@ p {
 @media (max-width: 1440px) {
     h1 {
         font-size: 38px;
+        max-width: 600px;
     }
 
     h2 {
@@ -53,7 +54,17 @@ p {
 
 /* Tablet */
 @media (max-width: 991px) {
-    
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p, td {
+        font-size: 14px;
+    }
 }
   
 /* Mobile Landscape */

@@ -22,11 +22,11 @@
 }
 
 .img-gallery {
-    width: 85%;
+    width: 80%;
     margin: 20px auto;
     margin-bottom: 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 4 equal columns */
+    grid-template-columns: repeat(3, 1fr); /* 5 equal columns */
     grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
     grid-gap: 30px;
 }
@@ -71,8 +71,12 @@
 }
 
 /* Tablet */
-@media (max-width: 991px) {
-    
+@media (max-width: 1024px) {
+    .img-gallery {
+        width: 65%;
+        grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+        grid-template-rows: repeat(3, 1fr); /* 5 equal rows */
+    }
 }
   
 /* Mobile Landscape */

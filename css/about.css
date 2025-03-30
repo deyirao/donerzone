@@ -42,8 +42,10 @@
 }
 
 /* Tablet */
-@media (max-width: 991px) {
-    
+@media (max-width: 1024px) {
+    .about-content {
+        gap: 70px;
+    }
 }
   
 /* Mobile Landscape */

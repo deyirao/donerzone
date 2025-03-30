@@ -82,7 +82,6 @@
 }
 
 .swiper {
-    width: 120vw; /* Full viewport width */
     max-width: 100%; /* Ensure it doesn't shrink */
     padding: 20px 0 60px;
     margin: 0 auto;
@@ -115,6 +114,30 @@
 
     .swiper-button-next::after {
         margin-right: 50px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1400px) {
+    .swiper-button-prev::after {
+        margin-left: 0px;
+    }
+
+    .swiper-button-next::after {
+        margin-right: 0px;
+    }
+
+    .swiper {
+        width: 70%;
+    }
+
+    .swiper-slide-next .reviews-item {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .reviews-item {
+        opacity: 1;
     }
 }
 

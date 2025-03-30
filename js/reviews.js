@@ -6,15 +6,19 @@ document.addEventListener("DOMContentLoaded", function () {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
         autoplay: {
             delay: 7000,
             disableOnInteraction: false,
         },
         breakpoints: {
-            1024: {
+            1440: {
                 slidesPerView: 3
             },
-            768: {
+            991: {
                 slidesPerView: 2
             },
             480: {
