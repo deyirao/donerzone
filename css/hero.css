@@ -43,7 +43,6 @@
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
-/* "Zur Speisekarte" Button Style */
 .hero-button.menu {
     background: black;
     color: #FEC114;
@@ -53,4 +52,19 @@
 .hero-button.menu:hover {
     background: #FEC114;
     color: black;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    
+}
+  
+/* Mobile Landscape */
+@media (max-width: 767px) {
+    
+}
+  
+/* Mobile Portrait */
+@media (max-width: 479px) {
+    
 }

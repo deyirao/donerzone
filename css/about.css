@@ -40,3 +40,19 @@
     text-align: justify;
     line-height: 22px;
 }
+
+/* Tablet */
+@media (max-width: 991px) {
+    
+}
+  
+/* Mobile Landscape */
+@media (max-width: 767px) {
+    
+}
+  
+/* Mobile Portrait */
+@media (max-width: 479px) {
+    
+}
+
