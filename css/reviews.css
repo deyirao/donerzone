@@ -143,7 +143,17 @@
 
 /* Tablet */
 @media (max-width: 991px) {
-    
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-button-prev::after {
+        margin-left: 100px;
+    }
+
+    .swiper-button-next::after {
+        margin-right: 100px;
+    }
 }
   
 /* Mobile Landscape */

@@ -72,16 +72,16 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
+    
+}
+  
+/* Mobile Landscape */
+@media (max-width: 767px) {
     .img-gallery {
         width: 65%;
         grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
         grid-template-rows: repeat(3, 1fr); /* 5 equal rows */
     }
-}
-  
-/* Mobile Landscape */
-@media (max-width: 767px) {
-    
 }
   
 /* Mobile Portrait */

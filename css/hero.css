@@ -56,7 +56,9 @@
 
 /* Tablet */
 @media (max-width: 1024px) {
-
+    .hero p {
+        max-width: 500px;
+    }
 }
   
 /* Mobile Landscape */
