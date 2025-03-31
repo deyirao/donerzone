@@ -37,8 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 0.4s ease, opacity 0.4s ease;
-    opacity: 0.7;
+    transition: transform 0.4s ease;
 }
 
 .reviews-item .info {
@@ -103,7 +102,6 @@
 
 .swiper-slide-next .reviews-item {
     transform: scale(1.1);
-    opacity: 1;
 }
 
 /* Laptop */

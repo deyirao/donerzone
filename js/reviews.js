@@ -19,10 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 el: ".swiper-pagination",
                 clickable: true,
             },
-            autoplay: {
-                delay: 7000,
-                disableOnInteraction: false,
-            },
             breakpoints: {
                 480: { slidesPerView: 1 },
                 991: { slidesPerView: 2 },
