@@ -76,6 +76,10 @@
         width: 70%;
         grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
     }
+
+    .gallery-text p {
+        max-width: 500px;
+    }
 }
   
 /* Mobile Landscape */
@@ -85,9 +89,21 @@
         grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
         grid-template-rows: repeat(3, 1fr); /* 5 equal rows */
     }
+
+    .gallery-text p {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-text p {
+        max-width: 350px;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    .gallery-text p {
+        max-width: 250px;
+    }
 }

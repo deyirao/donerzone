@@ -99,6 +99,16 @@
         width: 700px;
         height: 430px;
     }
+
+    .clock-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .clock-icon img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media (max-width: 1140px) {
@@ -114,24 +124,70 @@
     .location-details {
         gap: 20px;
     }
+
+    .clock-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .clock-icon img {
+        width: 28px;
+        height: 28px;
+        font-weight: 140;
+    }
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
+    .opening-hours-header h3 {
+        font-size: 18px;
+    }
+
     .contact-map iframe {
         width: 350px;
         height: 400px;
+    }
+
+    .clock-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .clock-icon img {
+        width: 26px;
+        height: 26px;
+        font-weight: 130;
+    }
+}
+
+@media (max-width: 867px) {
+    .opening-hours-header h3 {
+        font-size: 16px;
+    }
+
+    .location-text p {
+        max-width: 400px;
+    }
+
+    .location-details {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
 }
   
 /* Mobile Landscape */
 @media (max-width: 767px) {
-    
+    .location-text p {
+        max-width: 350px;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    .location-text p {
+        max-width: 250px;
+    }
 }
 
 

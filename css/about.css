@@ -50,7 +50,10 @@
   
 /* Mobile Landscape */
 @media (max-width: 767px) {
-    
+    .about-content {
+        gap: 40px;
+        flex-direction: column;
+    }
 }
   
 /* Mobile Portrait */

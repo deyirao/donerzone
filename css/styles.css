@@ -75,11 +75,31 @@ p {
   
 /* Mobile Landscape */
 @media (max-width: 767px) {
-    
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p, td {
+        font-size: 13px;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p, td {
+        font-size: 12px;
+    }
 }
   

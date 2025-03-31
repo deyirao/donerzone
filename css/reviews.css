@@ -137,6 +137,10 @@
     .reviews-item {
         opacity: 1;
     }
+
+    .reviews-text p {
+        max-width: 550px;
+    }
 }
 
 /* Tablet */
@@ -152,14 +156,32 @@
     .swiper-button-next::after {
         margin-right: 100px;
     }
+
+    .reviews-text p {
+        max-width: 480px;
+    }
 }
   
 /* Mobile Landscape */
 @media (max-width: 767px) {
-    
+    .reviews-text p {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 660px) {
+    .swiper-button-prev::after {
+        margin-left: 250px;
+    }
+
+    .swiper-button-next::after {
+        margin-right: 250px;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    .reviews-text p {
+        max-width: 300px;
+    }
 }

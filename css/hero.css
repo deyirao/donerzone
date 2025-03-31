@@ -62,8 +62,15 @@
 }
   
 /* Mobile Landscape */
-@media (max-width: 767px) {
-    
+@media (max-width: 750px) {
+    .hero {
+        justify-content: center;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
   
 /* Mobile Portrait */
