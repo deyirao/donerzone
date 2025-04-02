@@ -35,6 +35,22 @@ p {
     max-width: 600px;
 }
 
+.animated {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.animated.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fast Animation */
+.animated-fast {
+    transition-duration: 0.5s; /* Faster transition */
+}
+
 @media (min-width: 1920px) {
     .main-wrapper {
         border: 1px solid black;

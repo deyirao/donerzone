@@ -8,4 +8,4 @@
 
 5. DONE - Make website reponsive for all screenss
 
-6. Add animations to the website
+6. DONE - Add animations to the website
