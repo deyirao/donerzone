@@ -46,6 +46,10 @@
     .about-content {
         gap: 70px;
     }
+
+    .about {
+        padding: 60px 95px;
+    }
 }
   
 /* Mobile Landscape */
@@ -54,10 +58,16 @@
         gap: 40px;
         flex-direction: column;
     }
+
+    .about {
+        padding: 50px 70px;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    .about {
+        padding: 40px 55px;
+    }
 }
 

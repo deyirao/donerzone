@@ -59,6 +59,11 @@
     .hero p {
         max-width: 500px;
     }
+
+    .hero-container {
+        padding: 75px;
+        padding-top: 15px;
+    }
 }
   
 /* Mobile Landscape */
@@ -75,5 +80,8 @@
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
-    
+    .hero-container {
+        padding: 50px;
+        padding-top: 10px;
+    }
 }

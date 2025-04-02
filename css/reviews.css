@@ -160,12 +160,20 @@
     .reviews-text p {
         max-width: 480px;
     }
+
+    .reviews {
+        padding: 60px 0;
+    }
 }
   
 /* Mobile Landscape */
 @media (max-width: 767px) {
     .reviews-text p {
         max-width: 400px;
+    }
+
+    .reviews {
+        padding: 50px 0;
     }
 }
 
@@ -183,5 +191,23 @@
 @media (max-width: 479px) {
     .reviews-text p {
         max-width: 300px;
+    }
+
+    .reviews-item .info {
+        padding: 50px 25px;
+        padding-top: 80px;
+        max-width: 250px;
+    }
+    
+    .swiper-button-prev::after {
+        margin-left: 325px;
+    }
+
+    .swiper-button-next::after {
+        margin-right: 325px;
+    }
+
+    .reviews {
+        padding: 40px 0;
     }
 }

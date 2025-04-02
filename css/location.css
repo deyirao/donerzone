@@ -162,6 +162,10 @@
     .location-text p {
         max-width: 500px;
     }
+
+    .location {
+        padding: 60px 0;
+    }
 }
 
 @media (max-width: 867px) {
@@ -232,12 +236,25 @@
         width: 400px;
         height: 400px;
     }
+
+    .location {
+        padding: 50px 0;
+    }
 }
   
 /* Mobile Portrait */
 @media (max-width: 479px) {
     .location-text p {
         max-width: 250px;
+    }
+
+    .contact-map iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    .location {
+        padding: 40px 0;
     }
 }
 
