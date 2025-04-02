@@ -6,6 +6,6 @@
 
 4. DONE - Make the main logo on the navigation bar clickable
 
-5. Make website reponsive for all screenss
+5. DONE - Make website reponsive for all screenss
 
 6. Add animations to the website
